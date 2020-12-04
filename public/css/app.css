@@ -1,0 +1,19 @@
+body {
+    font-family: 'Nunito';
+}
+.col {
+    width: 100%;
+}
+.select {
+    margin: auto;
+}
+.select2-container--default .select2-selection--single {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+.select2-selection__arrow {
+    height: 38px !important;
+    vertical-align: middle;
+}
