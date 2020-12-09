@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Prompt';
     background: #E5E5E5;
 }
@@ -14,14 +14,12 @@ body {
 }
 
 img {
-    position: absolute;
     width: 40px;
     height: 40px;                
     background: url(cmu_logo.png);
 }
 
 .position {
-    position: absolute;
     width: 559px;
     height: 31px;
     left: 450px;
@@ -56,6 +54,39 @@ img {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.header{
+    width: 100%;
+    height: 28px;
+    margin-left: 22px;
+    margin-top: 20px;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #333333;
+}
+
+.line {
+    width: 24.63px;
+    height: 2px;
+    margin-left: 22px;
+    margin-top: 15px;
+
+    background: #8A5C8E;
+}
+
+.line2 {
+    width: 626px;
+    height: 1px;
+    margin-left: 47px;
+    margin-top: -1px;
+
+    background: #E9E9E9; 
+}
+
 .select {
     margin: auto;
 }
@@ -81,25 +112,58 @@ img {
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #F9F9F9;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+}
+
+.form-control1 {
+    width: 100%;
+    height: 70px;
+    left: 370px;
+    top: 250px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* #000000 */
+
+    /* color: #000000;
 }
 
 .btn {
-    position: absolute;
     width: 137px;
-    height: 48px;
     left: 652px;
     top: 850px;
     color: #FFFFFF;
     align-items: center;
     text-align: center;
-
-    /* #C8C7CC */
-
     background: #C8C7CC;
     box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
 }
+
+.modal-body{
+    width: 439px;
+    height: 49px;
+    margin: auto;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+} */ 
